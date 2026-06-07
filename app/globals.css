@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand colours */
+  --color-black: #06080a;
+  --color-dark: #0d0f12;
+  --color-card: #0f1114;
+  --color-border-dark: #1e2428;
+  --color-gold: #b8960c;
+  --color-gold-light: #d4ac0e;
+  --color-cream: #e8dfc8;
+  --color-muted: #7a7060;
+  --color-dim: #4a4840;
+  --color-green-accent: #7a9060;
+
+  /* Font families */
+  --font-cormorant: var(--font-cormorant);
+  --font-barlow: var(--font-barlow);
+}
+
+:root {
+  --background: #06080a;
+  --foreground: #e8dfc8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #06080a;
+  color: #e8dfc8;
+  font-family: var(--font-barlow), 'Barlow', system-ui, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Gold gradient text utility */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #b8960c 0%, #d4ac0e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle grid overlay */
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(184, 150, 12, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 150, 12, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Gold radial glow */
+.gold-glow {
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(184, 150, 12, 0.08) 0%, transparent 70%);
+}
+
+/* Scroll fade animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollLine {
+  0% { height: 0; opacity: 1; }
+  100% { height: 40px; opacity: 0; }
+}
+
+.animate-scroll-line {
+  animation: scrollLine 1.5s ease-in-out infinite;
+}
