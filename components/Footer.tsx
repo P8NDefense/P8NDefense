@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-4">
             <Image
-              src="/p8n-logo.svg"
+              src="/p8n-logo.png"
               alt="P8N Defense Logo"
               width={52}
               height={52}

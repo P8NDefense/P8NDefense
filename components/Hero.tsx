@@ -31,7 +31,7 @@ export default function Hero() {
           className="mb-8"
         >
           <Image
-            src="/p8n-logo.svg"
+            src="/p8n-logo.png"
             alt="P8N Defense"
             width={100}
             height={100}

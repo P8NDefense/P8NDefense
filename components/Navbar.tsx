@@ -52,7 +52,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/p8n-logo.svg"
+              src="/p8n-logo.png"
               alt="P8N Defense Logo"
               width={48}
               height={48}
