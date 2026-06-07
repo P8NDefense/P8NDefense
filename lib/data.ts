@@ -5,7 +5,7 @@ export const siteConfig = {
   founder: 'Cyril Paton',
   address: '11 Mignon Place, Morningside, Durban, South Africa',
   email: 'info@p8ndefense.com',
-  cell: '+27 82 517 5039',
+  cell: '+27 31 316 5158',
   office: '+27 31 316 5158',
   website: 'p8ndefense.com',
   url: 'https://www.p8ndefense.com',

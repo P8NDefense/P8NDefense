@@ -66,7 +66,7 @@ const jsonLd = {
       description:
         'Elite close protection, aviation security, asset protection, event security, armoured vehicles, and air mobility services.',
       url: 'https://www.p8ndefense.com',
-      telephone: '+27825175039',
+      telephone: '+27313165158',
       email: 'info@p8ndefense.com',
       address: {
         '@type': 'PostalAddress',
