@@ -38,12 +38,12 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'P8N Defense' }],
   robots: { index: true, follow: true },
-  alternates: { canonical: 'https://www.kdpconcepts.com' },
+  alternates: { canonical: 'https://www.p8ndefense.com' },
   openGraph: {
     siteName: 'P8N Defense',
     locale: 'en_ZA',
     type: 'website',
-    url: 'https://www.kdpconcepts.com',
+    url: 'https://www.p8ndefense.com',
     title: 'P8N Defense | Elite Close Protection & Security Services South Africa',
     description:
       'Government-Grade Protection. Private-Sector Precision. Elite close protection, aviation security, asset protection and air mobility across South Africa.',
@@ -61,13 +61,13 @@ const jsonLd = {
   '@graph': [
     {
       '@type': ['LocalBusiness', 'ProfessionalService'],
-      '@id': 'https://www.kdpconcepts.com',
+      '@id': 'https://www.p8ndefense.com',
       name: 'P8N Defense',
       description:
         'Elite close protection, aviation security, asset protection, event security, armoured vehicles, and air mobility services.',
-      url: 'https://www.kdpconcepts.com',
+      url: 'https://www.p8ndefense.com',
       telephone: '+27825175039',
-      email: 'info@kdpconcepts.com',
+      email: 'info@p8ndefense.com',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '11 Mignon Place',

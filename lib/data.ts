@@ -4,11 +4,11 @@ export const siteConfig = {
   slogan: 'sablutho',
   founder: 'Cyril Paton',
   address: '11 Mignon Place, Morningside, Durban, South Africa',
-  email: 'info@kdpconcepts.com',
+  email: 'info@p8ndefense.com',
   cell: '+27 82 517 5039',
   office: '+27 31 316 5158',
-  website: 'kdpconcepts.com',
-  url: 'https://www.kdpconcepts.com',
+  website: 'p8ndefense.com',
+  url: 'https://www.p8ndefense.com',
 }
 
 export interface Service {
