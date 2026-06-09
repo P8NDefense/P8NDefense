@@ -54,6 +54,13 @@ export default function Footer() {
             >
               {siteConfig.cell}
             </Link>
+            <Link
+              href={`tel:${siteConfig.office.replace(/\s/g, '')}`}
+              className="text-[#7a7060] hover:text-[#b8960c] text-sm transition-colors"
+              style={{ fontFamily: 'var(--font-barlow), Barlow, system-ui' }}
+            >
+              {siteConfig.office}
+            </Link>
             <p
               className="text-[#4a4840] text-xs mt-2"
               style={{ fontFamily: 'var(--font-barlow), Barlow, system-ui' }}
