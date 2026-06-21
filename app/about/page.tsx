@@ -21,7 +21,8 @@ export default function AboutPage() {
             className="text-4xl sm:text-5xl md:text-6xl font-light text-[#e8dfc8] leading-tight max-w-3xl"
             style={{ fontFamily: 'var(--font-cormorant), Cormorant Garamond, Georgia, serif' }}
           >
-            Built on the Continent.{' '}
+            Built on the Continent.
+            <br />
             <span className="text-[#b8960c] italic">Trained by Government.</span>
           </h1>
         </div>
