@@ -120,6 +120,17 @@ export default function AboutPage() {
           <div>
             <SectionLabel text="Founder & Operator Credentials" className="mb-8" />
             <CredentialsList credentials={credentials} />
+            <div className="mt-5 pt-4 border-t border-[#1e2428]">
+              <p
+                className="text-xs text-[#4a4840] leading-relaxed"
+                style={{ fontFamily: 'var(--font-barlow), Barlow, system-ui' }}
+              >
+                <span className="text-[#7a9060]">✓</span>{' '}
+                All P8N Defense operators are retired or separated from SAPS and SANDF service. No
+                current serving members are engaged in any P8N Defense operation, in full compliance
+                with SAPS and SANDF regulations on outside remunerative work.
+              </p>
+            </div>
           </div>
         </div>
       </section>

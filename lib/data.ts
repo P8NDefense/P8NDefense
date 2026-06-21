@@ -39,6 +39,7 @@ export const services: Service[] = [
       'Drone-assisted advance reconnaissance and aerial threat mapping',
       'Advanced offensive and defensive driving trained operators',
       'All operators are trained operational medics and first responders',
+      'Female close protection officers available',
     ],
   },
   {
@@ -120,6 +121,7 @@ export const services: Service[] = [
       'Secure air transfers across Southern Africa',
       'Aerial reconnaissance support',
       'Coordinated air-ground operations',
+      'Netcare 911 medevac partnership — HEMS based at Virginia Airport, flight doctor and ALS paramedics, 600km effective range',
     ],
   },
 ]
@@ -200,8 +202,8 @@ export const credentials: Credential[] = [
     type: 'gold',
   },
   {
-    title: 'National Intervention Unit (NIU)',
-    description: 'SAPS medium-to-high-risk operations',
+    title: 'Former National Intervention Unit (NIU)',
+    description: 'SAPS medium-to-high-risk operations — one of South Africa\'s most demanding law enforcement units',
     type: 'gold',
   },
   {
@@ -210,19 +212,29 @@ export const credentials: Credential[] = [
     type: 'gold',
   },
   {
-    title: 'Special Task Force (STF)',
-    description: 'SAPS elite counter-terrorism and hostage rescue',
+    title: 'Former Special Task Force (STF)',
+    description: 'SAPS elite counter-terrorism and hostage rescue unit',
     type: 'standard',
   },
   {
-    title: 'South African Special Forces',
-    description: 'Military special operations',
+    title: 'Former SAPS Counter Assault Team (CAT)',
+    description: 'SAPS VIP protection rapid-response unit',
+    type: 'standard',
+  },
+  {
+    title: 'Former South African Special Forces',
+    description: 'Military special operations — continental and international deployments',
     type: 'standard',
   },
   {
     title: 'Military Intelligence',
     description: 'Threat analysis and intelligence operations',
     type: 'standard',
+  },
+  {
+    title: 'Female Close Protection Officers',
+    description: 'P8N Defense fields trained female close protection officers — for female principals, families with children, and assignments requiring discreet, same-gender placement',
+    type: 'gold',
   },
   {
     title: 'Operational Medics & First Responders',
